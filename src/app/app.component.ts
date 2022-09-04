@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  constructor() {
+    window.open('uorderlb://request?jjs4', '_blank');
+  }
   title = 'test-an';
 }
